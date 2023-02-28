@@ -14,5 +14,6 @@ Console.WriteLine(firstNames[firstNames.Count - 1]);
 
 string data = " Corey,Smith,Jones";
 List<string> lastNames = data.Split(',').ToList();
+lastNames.Add("Franklin");
 
 Console.WriteLine(lastNames[lastNames.Count - 1]);
